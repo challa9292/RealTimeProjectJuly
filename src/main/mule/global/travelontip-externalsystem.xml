@@ -6,6 +6,6 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
 	<flow name="travelontip-externalsystemFlow" doc:id="2a3d8576-b991-4241-9d2e-362b2a2ec574" >
 		<http:listener doc:name="Listener" doc:id="7b9ee040-b0b8-4647-a99b-2ab83711f8e0" path="${hhtp.listener.path}" config-ref="HTTP_Listener_config"/>
-		<logger level="INFO" doc:name="Logger" doc:id="9f67a0b4-da27-4512-9813-522ec4bf4cfc" message="logg started"/>
+		<logger level="INFO" doc:name="Logger" doc:id="9f67a0b4-da27-4512-9813-522ec4bf4cfc" message="log started"/>
 	</flow>
 </mule>
