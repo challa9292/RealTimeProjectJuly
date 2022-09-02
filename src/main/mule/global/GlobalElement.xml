@@ -6,8 +6,7 @@
 	xsi:schemaLocation="
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="662033e3-aae0-440d-b62c-230ac8e2fd9d" >
-		<http:listener-connection host="${hhtp.listener.host}" port="${hhtp.listener.port}" />
+		<http:listener-connection host="${http.listener.host}" port="${http.listener.port}" />
 	</http:listener-config>
-	<configuration-properties doc:name="Configuration properties" doc:id="c041e281-3cba-4620-a5aa-e719e6f76d60" file="config\local.yaml" />
-	
+	<configuration-properties doc:name="Configuration properties" doc:id="c7eaca6e-c6dd-460a-b2f8-1d4bffbf1a06" file="config\local.yaml" />
 	</mule>
